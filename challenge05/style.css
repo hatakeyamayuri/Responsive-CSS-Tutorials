@@ -29,6 +29,10 @@ h1 {
     margin-top: 0;
 }
 
+main {
+    padding: 50px 0;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -38,7 +42,7 @@ h1 {
 .row {
     display: flex;
     justify-content: space-between;
-    gap: 100px; 
+    gap: 6%; 
 }
 
 .col {
@@ -56,7 +60,7 @@ h1 {
 }
 
 .hero__img {
-    width: 38%;
+    width: 32%;
     align-self: flex-start;
 }
 
@@ -78,10 +82,6 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
-}
-
-.text-content {
-    padding: 50px 0;
 }
 
 .list {
