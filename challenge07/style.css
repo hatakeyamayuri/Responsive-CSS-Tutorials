@@ -31,7 +31,7 @@ h1 {
     font-size: 60px;
     color: #824936;
     text-align: center;
-    line-height: 55px;
+    line-height: 1.1 ;
     margin-top: .3em;
 }
 
@@ -47,6 +47,7 @@ h3 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: .5em;
+    text-align: center;
 }
 
 p {
@@ -66,7 +67,7 @@ p {
 
 header {
     background: #F3EED9;
-    min-height: 660px;
+    min-height: 100vh;
     display: flex;
 }
 
@@ -91,4 +92,13 @@ header {
 
 .section-3 {
     background: #824936;
+}
+
+@media (max-width: 700px) {
+    .two-col-container {
+        display: block;
+    }
+    .mobile-space-down {
+        margin-bottom: 1.5em;
+    }
 }
