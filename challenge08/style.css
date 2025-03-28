@@ -88,6 +88,11 @@ header {
     color: #dfe9ea;
 }
 
+.nav__link:hover,
+.nav__link:focus {
+    opacity: .75;
+}
+
 .nav__link--button {
     background: #fff;
     color: #136c72;
